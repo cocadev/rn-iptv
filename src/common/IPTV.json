@@ -1,0 +1,244 @@
+ {
+  "headers": {},
+  "original": {
+    "error_code": 0,
+    "message": "",
+    "data": {
+      "profile_name": "IPTV",
+      "mode": {
+        "Multichannel": [
+          {
+            "_id": "5e42426843c47d7a487c0215",
+            "domain_id": "5e4241b843c47d6dba0e1a37",
+            "account_id": "5e42402843c47d7a445969d3",
+            "name": "Kid",
+            "updated_at": "2020-02-11 11:28:00",
+            "created_at": "2020-02-11 11:28:00",
+            "channels": [
+              {
+                "_id": "5e42477343c47d7a96760ce3",
+                "image": "https://www.go2alto.com/media-filemanager/files/5e4241b843c47d6dba0e1a38/CNN.png",
+                "name": "CNN",
+                "video_format": "mp4",
+                "url": "https://www.youtube.com/watch?v=QOE_tRitOgo",
+                "status": 1,
+                "channel_category": "5e42426843c47d7a487c0215",
+                "domain_id": "5e4241b843c47d6dba0e1a37",
+                "account_id": "5e42402843c47d7a445969d3",
+                "updated_at": "2020-02-11 11:49:31",
+                "created_at": "2020-02-11 11:49:31",
+                "packages_id": [
+                  "5e4291db43c47d7a445969e9",
+                  "5e42923643c47d7a487c0226",
+                  "5e4248c443c47d0580548c4b"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "5e42427743c47d6dba0e1a39",
+            "domain_id": "5e4241b843c47d6dba0e1a37",
+            "account_id": "5e42402843c47d7a445969d3",
+            "name": "Family",
+            "updated_at": "2020-02-11 11:28:15",
+            "created_at": "2020-02-11 11:28:15",
+            "channels": [
+              {
+                "_id": "5e4248aa43c47d6dba0e1a3c",
+                "image": "https://www.go2alto.com/media-filemanager/files/5e4241b843c47d6dba0e1a38/AMC.png",
+                "name": "AMC",
+                "video_format": "mp4",
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                "status": 1,
+                "channel_category": "5e42427743c47d6dba0e1a39",
+                "domain_id": "5e4241b843c47d6dba0e1a37",
+                "account_id": "5e42402843c47d7a445969d3",
+                "updated_at": "2020-02-11 11:54:42",
+                "created_at": "2020-02-11 11:54:42",
+                "packages_id": [
+                  "5e42918543c47d7a487c0225",
+                  "5e4248c443c47d0580548c4b"
+                ]
+              },
+              {
+                "_id": "5e42a60d43c47d7a96760cfd",
+                "image": "https://www.go2alto.com/media-filemanager/files/5e4241b843c47d6dba0e1a38/sky.png",
+                "name": "Udp",
+                "video_format": "mp4",
+                "url": "udp://@192.168.1.21:5000",
+                "status": 1,
+                "channel_category": "5e42427743c47d6dba0e1a39",
+                "domain_id": "5e4241b843c47d6dba0e1a37",
+                "account_id": "5e42402843c47d7a445969d3",
+                "updated_at": "2020-02-18 16:07:02",
+                "created_at": "2020-02-11 18:33:09",
+                "packages_id": [
+                  "5e4248c443c47d0580548c4b"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "5e42567d43c47d7a9c6dde2e",
+            "domain_id": "5e4241b843c47d6dba0e1a37",
+            "account_id": "5e42402843c47d7a445969d3",
+            "name": "News",
+            "updated_at": "2020-02-11 12:53:41",
+            "created_at": "2020-02-11 12:53:41",
+            "channels": [
+              {
+                "_id": "5e438ff843c47d7f3a0d7e47",
+                "image": "https://go2alto.com/media-filemanager/files/5e438d8d43c47d7f2a3a61ea/channels/netflix.png",
+                "name": "Dev UDP",
+                "video_format": "ac3",
+                "url": "udp://@192.168.1.12:1234",
+                "status": 1,
+                "channel_category": "5e42567d43c47d7a9c6dde2e",
+                "domain_id": "5e438d8d43c47d7f2a3a61e9",
+                "account_id": "5e42402843c47d7a445969d3",
+                "updated_at": "2020-02-12 13:08:01",
+                "created_at": "2020-02-12 11:11:12",
+                "packages_id": [
+                  "5e4248c443c47d0580548c4b"
+                ]
+              }
+            ]
+          }
+        ],
+        "closed_caption": "enabled",
+        "type": "IPTV"
+      },
+      "system_settings": {
+        "temperature": "fahrenheit"
+      },
+      "room_number": "",
+      "schedules": null,
+      "logo": "https://go2alto.com/assets/demo/demo12/media/img/logo/logo.png"
+    }
+  },
+  "exception": null
+}
+
+{
+  "error_code": 0,
+  "message": "",
+  "data": {
+      "profile_name": "IPTV",
+      "mode": {
+          "Multichannel": [
+              {
+                  "_id": "5efc257287318225ed4b61f2",
+                  "domain_id": "5efc1fc58704fd29bc4c00c4",
+                  "account_id": "5efc1fc58704fd29bc4c00c3",
+                  "name": "News",
+                  "updated_at": "2020-07-01 11:26:02",
+                  "created_at": "2020-07-01 11:26:02",
+                  "channels": [
+                      {
+                          "_id": "5efc29138704fd29bc4c00c5",
+                          "image": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/bbc.png",
+                          "name": "BBC",
+                          "video_format": "mp4",
+                          "url": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/videos/AC3_1.mp4",
+                          "status": 1,
+                          "channel_category": "5efc257287318225ed4b61f2",
+                          "domain_id": "5efc1fc58704fd29bc4c00c4",
+                          "account_id": "5efc1fc58704fd29bc4c00c3",
+                          "updated_at": "2020-07-02 10:32:21",
+                          "created_at": "2020-07-01 11:41:31",
+                          "packages_id": [
+                              "5efc297e57466613e912acfc"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "_id": "5efc257eae84f8567409bfd3",
+                  "domain_id": "5efc1fc58704fd29bc4c00c4",
+                  "account_id": "5efc1fc58704fd29bc4c00c3",
+                  "name": "Sports",
+                  "updated_at": "2020-07-01 11:26:14",
+                  "created_at": "2020-07-01 11:26:14",
+                  "channels": [
+                      {
+                          "_id": "5efc271d87318225ed4b61f4",
+                          "image": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/nbc.png",
+                          "name": "NBC",
+                          "video_format": "mp4",
+                          "url": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/videos/2.mp4",
+                          "status": 1,
+                          "channel_category": "5efc257eae84f8567409bfd3",
+                          "domain_id": "5efc1fc58704fd29bc4c00c4",
+                          "account_id": "5efc1fc58704fd29bc4c00c3",
+                          "updated_at": "2020-07-02 10:32:05",
+                          "created_at": "2020-07-01 11:33:09",
+                          "packages_id": [
+                              "5efc297e57466613e912acfc"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "_id": "5efc259060bbbb184526ff2b",
+                  "domain_id": "5efc1fc58704fd29bc4c00c4",
+                  "account_id": "5efc1fc58704fd29bc4c00c3",
+                  "name": "Music",
+                  "updated_at": "2020-07-01 11:26:32",
+                  "created_at": "2020-07-01 11:26:32",
+                  "channels": [
+                      {
+                          "_id": "5efc26c39bf32765c8143622",
+                          "image": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/sky.png",
+                          "name": "Sky",
+                          "video_format": "mp4",
+                          "url": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/videos/4.mp4",
+                          "status": 1,
+                          "channel_category": "5efc259060bbbb184526ff2b",
+                          "domain_id": "5efc1fc58704fd29bc4c00c4",
+                          "account_id": "5efc1fc58704fd29bc4c00c3",
+                          "updated_at": "2020-07-02 10:31:52",
+                          "created_at": "2020-07-01 11:31:39",
+                          "packages_id": [
+                              "5efc297e57466613e912acfc"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "_id": "5efc259b21ead54e3739c036",
+                  "domain_id": "5efc1fc58704fd29bc4c00c4",
+                  "account_id": "5efc1fc58704fd29bc4c00c3",
+                  "name": "Kids",
+                  "updated_at": "2020-07-01 11:26:43",
+                  "created_at": "2020-07-01 11:26:43",
+                  "channels": [
+                      {
+                          "_id": "5efc28c72fcecc72a77c5f2c",
+                          "image": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/discovery.png",
+                          "name": "Discovery",
+                          "video_format": "mp4",
+                          "url": "https://uat.go2alto.com/media-filemanager/files/5efc20b61844d46cf86b2796/videos/3.mp4",
+                          "status": 1,
+                          "channel_category": "5efc259b21ead54e3739c036",
+                          "domain_id": "5efc1fc58704fd29bc4c00c4",
+                          "account_id": "5efc1fc58704fd29bc4c00c3",
+                          "updated_at": "2020-07-01 15:47:17",
+                          "created_at": "2020-07-01 11:40:15",
+                          "packages_id": [
+                              "5efc297e57466613e912acfc"
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "closed_caption": "disabled",
+          "type": "IPTV"
+      },
+      "system_settings": {
+          "temperature": "fahrenheit"
+      },
+      "room_number": "",
+      "schedules": null,
+      "logo": "https://uat.go2alto.com/assets/demo/demo12/media/img/logo/logo.png"
+  }
+}
