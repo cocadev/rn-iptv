@@ -30,6 +30,12 @@ export function MainScreen(props) {
       </View>
       {apiData && <View style={styles.body}>
         <ScrollView style={styles.left}>
+          <TouchableOpacity 
+            onPress={()=>props.navigation.navigate('Web')} 
+            style={styles.btn}
+          >
+            <Text style={styles.btnText}>Webview</Text>
+          </TouchableOpacity>
           <ChannelAtom
             data={mokeData1}
             onClick={() => setChannel(0)}
@@ -105,5 +111,19 @@ const styles = StyleSheet.create({
     borderRadius: p(5),
     backgroundColor: '#fff'
   },
+  btn: {
+    width: p(50),
+    height: p(14),
+    borderRadius: p(10),
+    marginLeft: p(12),
+    backgroundColor: 'purple',
+    display: 'flex',
+    justifyContent:'center',
+    alignItems: 'center'
+  },
+  btnText: {
+    color: '#fff',
+    fontSize: p(8)
+  }
   
 });

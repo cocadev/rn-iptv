@@ -5,6 +5,7 @@ import {LoadingScreen} from './src/screens/loading';
 import {MainScreen} from './src/screens/main';
 import {DetailScreen} from './src/screens/detail';
 import {AuthScreen} from './src/screens/auth';
+import { WebScreen } from './src/screens/web';
 
 const MainStack = createStackNavigator(
   {
@@ -12,6 +13,7 @@ const MainStack = createStackNavigator(
     Auth: {screen: AuthScreen},
     Main: {screen: MainScreen},
     Detail: {screen: DetailScreen},
+    Web: {screen: WebScreen},
   },
   {
     headerMode: 'none',

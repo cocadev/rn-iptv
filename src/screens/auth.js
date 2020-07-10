@@ -15,8 +15,8 @@ export const AuthScreen = props => {
     setIsWaiting(true)
     api.login(user, password, (err, res) => {
       setIsWaiting(false)
-      console.log('{{{{{{{{}}}}}}}}', err)
-      console.log('{{{{{{{{ 1 }}}}}}}}', res)
+      console.log('{{{{{{{{ err }}}}}}}}', err)
+      console.log('{{{{{{{{ res }}}}}}}}', res)
 
       if (err == null) {
         Cache.token = res.data.token
