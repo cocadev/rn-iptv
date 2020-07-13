@@ -12,10 +12,10 @@ export const WebScreen = () => {
     <View style={styles.container}>
       <View style={{ width: width-p(30), height: height-p(60), borderWidth: 2, borderColor: 'green', backgroundColor: '#000' }}>
         <Webview 
-          source={{uri: 'https://www.cnn.com' }}
+          source={{uri: 'https://whichbrowser.net/' }}
         />
       </View>
-      <Text style={{ color: '#fff'}}>{'https://www.cnn.com'}</Text>
+      <Text style={{ color: '#fff'}}>{'https://whichbrowser.net/'}</Text>
       <Image source={images.logo} />
     </View>
   );
