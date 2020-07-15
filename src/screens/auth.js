@@ -15,9 +15,6 @@ export const AuthScreen = props => {
     setIsWaiting(true)
     api.login(user, password, (err, res) => {
       setIsWaiting(false)
-      console.log('{{{{{{{{ err }}}}}}}}', err)
-      console.log('{{{{{{{{ res }}}}}}}}', res)
-
       if (err == null) {
         Cache.token = res.data.token
         props.navigation.navigate('Main')

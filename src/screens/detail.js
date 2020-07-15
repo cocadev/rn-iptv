@@ -16,8 +16,8 @@ export const DetailScreen = props => {
     <View style={styles.container}>
       {loading && <ActivityIndicator color={'#fff'}/>}
       <Video
-        // source={{ uri: 'udp://@192.168.0.101:5000'}}
-        source={{ uri: url}}
+        source={{ uri: 'udp://@192.168.1.43:1234'}}
+        // source={{ uri: url}}
         rate={1.0}
         volume={0.0}
         isMuted={true}

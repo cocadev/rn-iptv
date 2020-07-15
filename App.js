@@ -17,7 +17,7 @@ const MainStack = createStackNavigator(
   },
   {
     headerMode: 'none',
-    initialRouteName: 'Web',
+    initialRouteName: 'Loading',
   },
 );
 

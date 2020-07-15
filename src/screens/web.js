@@ -13,7 +13,7 @@ export const WebScreen = () => {
     <View style={styles.container}>
       <View style={styles.web}>
         <Webview 
-          source={uri}
+          source={{ uri }}
         />
       </View>
       <Text style={{ color: '#fff'}}>{uri}</Text>
