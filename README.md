@@ -1,4 +1,4 @@
-# Alto React Native IPTV App
+# Alto React Native IPTV App 2
 
 <kbd>
 	<img src='screenshot/result.gif'>
